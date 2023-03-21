@@ -1,0 +1,43 @@
+ @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+    .click-target-container *, .top-sites-list * {
+        color: #fff !important ;
+        text-shadow: 2px 2px 2px #222 !important ;
+    }
+
+    body::before {
+        content: "" ;
+        z-index: -1 ;
+        position: fixed ;
+        top: 0 ;
+        left: 0 ;
+        background: #000000;
+        background-size: cover ;
+        width: 100vw ;
+        height: 100vh ;
+    }
+		input {
+      background-color: #111111 !important;
+		}
+		.tile {
+      background-color: #111111 !important;
+      color: #ffffff !important;
+      border: 1px solid #303030 !important;
+      border-radius: 0 !important;
+		}
+    .search-handoff-button {
+      background-color: #111111 !important;
+      color: #ffffff !important;
+      border: 2px solid #303030 !important;
+      height: 40px !important;
+      border-radius: 0 !important;
+      height: auto !important;
+    }
+    .top-site-icon, .rich-icon {
+      background-color: #111111 !important;
+    }
+    .logo {
+      background: url(./img/cuteff.svg) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+    }
+}
