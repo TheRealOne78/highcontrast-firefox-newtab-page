@@ -2,7 +2,7 @@
 
 A custom Firefox newtab page with a high contrast theme and a cute firefox logo
 
-![demoimg](https://i.imgur.com/soC4fh3.png)
+![Banner](https://i.imgur.com/soC4fh3.png)
 
 ## How to install
 
